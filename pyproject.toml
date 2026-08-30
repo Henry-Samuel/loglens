@@ -1,0 +1,17 @@
+[project]
+name = "loglens"
+version = "0.1.0"
+description = "Summarize log files by severity and recurring message patterns."
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = []
+
+[project.scripts]
+loglens = "loglens:main"
+
+[tool.setuptools]
+py-modules = ["loglens"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
