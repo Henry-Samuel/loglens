@@ -1,9 +1,8 @@
 from __future__ import annotations
 
-import sys
 from collections import Counter
 
-from loglens import LogEntry, analyze, format_report, main
+from loglens import analyze, format_report, main
 
 
 SAMPLE_LOG = """2026-01-01 00:00:01 INFO  Starting service

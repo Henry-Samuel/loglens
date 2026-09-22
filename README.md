@@ -38,13 +38,19 @@ loglens app.log error.log --top 20 --min-count 3 --max-lines 5000
 ## Project structure
 
 ```
-loglens/
-  loglens.py
-  tests/
-    test_loglens.py
-  pyproject.toml
-  README.md
+loglens.py
+tests/
+  test_loglens.py
+pyproject.toml
+README.md
 ```
+
+## Exit codes
+
+| Code | Meaning |
+| --- | --- |
+| `0` | Analysis completed successfully |
+| `2` | No input files, or one or more files could not be read |
 
 ## Tags / keywords
 
