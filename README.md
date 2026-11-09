@@ -38,12 +38,16 @@ loglens app.log error.log --top 20 --min-count 3 --max-lines 5000
 ## Project structure
 
 ```
+.github/
+  workflows/
+    ci.yml
+.gitignore
+LICENSE
+README.md
 loglens.py
+pyproject.toml
 tests/
   test_loglens.py
-pyproject.toml
-README.md
-```
 
 ## Exit codes
 
